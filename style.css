@@ -1,0 +1,63 @@
+body {
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+}
+
+textarea {
+  font-family: "Oswald", sans-serif;
+  font-size: 20px;
+  background: transparent;
+  border: none;
+  resize: none;
+  color: white;
+  border-left: 2px solid black;
+  padding: 10px;
+}
+
+.description {
+  white-space: pre-wrap;
+}
+
+.time-block {
+  border-radius: 15px;
+}
+
+.row {
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+/* I Changed past colors to red and present to grey */
+.past {
+  text-decoration: line-through red 4px;
+  background-color: #a31818;
+  color: white;
+}
+
+.present {
+  background-color: #9b9b9b;
+  color: white;
+}
+
+.future {
+  background-color: #00af00;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06aed5;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
